@@ -1,0 +1,11 @@
+I001|Fresh Milk|Ambewela|Dairy|500.0|25|2025-07-15|10|images/freshMilk.png
+I003|Butter|Highland|Dairy|600.0|30|2025-07-11|15|images/butter.jpg
+I004|Ice cream|Elephant House|Dairy|1250.75|12|2025-07-07|15|images/ice cream1.png
+I002|Baby soap|Uniliver|Groceries|245.0|40|2025-06-18|20|images/soap.jpeg
+I005|White rice|Nipuna|Groceries|850.0|18|2025-07-16|20|images/Rice.jpg
+I006|CR Book 80pg|Promate|Stationary|280.0|50|2025-07-30|20|images/book.png
+I007|Papaya|SL|Fruits|320.5|10|2025-06-16|15|images/papaya.jpg
+I008|cheese sausage|Maxies|Meat|1100.0|35|2025-06-16|25|images/sausage.jpg
+I009|Sunflower oil|Fortune|Groceries|1350.0|10|2025-06-30|15|images/sunflower oil.jpg
+I012|Red apples|XX|Fruits|270.0|40|2025-07-24|30|images/apple.jpg
+I011|Pencils|Atlas|Stationary|250.0|12|2025-07-07|15|images/pencils_cut-scaled.jpg

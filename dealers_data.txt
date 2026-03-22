@@ -1,0 +1,16 @@
+John|Matara|0760506527|Washing Powder,Unilever,25,250.50;Kist Tomato Sauce,CIC,10,199.99;MD Jam Mixed Fruit,MD,3,149.99
+David|Galle|0771235894|Milk Powder,Fonterra,8,250.00;Samaposha Mix,Ceylon,12,300.00;Corn Flakes,Kellogg's,4,99.99
+Tom|Colombo|0741235895|Lemon Puff,CBL,5,99.99;Ice Cream,Imorich,10,199.99;Lipton Tea Pack,ceylon,3,149.99
+Brad|Negombo|0715874695|Noodles,Prima,8,250.00;Maliban Milk Shortcake,Maliban,12,300.00;Nestlé Milo,Nestlé,4,120.00
+Emily|Chillaw|0715874562|Cheramy Soap,Hemas,5,99.99;Signal Toothpaste,Unilever,10,199.99;Fresh milk,Ambewela,3,560.00
+Stephan|Kandy|0745896323|Orange Juice,Sunquick,8,250.00;Soy Meat,IMEXCO,12,750.00;Cheese Spread,Kotmale,4,600.00
+Alice|Kurunegala|0721456789|Sausages,Keells,20,540.00;White Rice,CIC,50,1060.00;Soft Drinks,Elephant House,30,180.00
+Ashan|Jaffna|0759876543|Detergent,Unilever,15,520.00;Cooking Oil,Sunrich,10,950.00;Toilet Cleaner,Harpic,12,430.00
+Cooper|Anuradhapura|0786541230|Coca cola,Coca-Cola Company,25,480.00;Nestomalt,Nestlé,18,720.00;Chocolate,Richbury,40,210.00
+
+
+
+
+
+
+
