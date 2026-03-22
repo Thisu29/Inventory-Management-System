@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="543.0" prefWidth="694.0" style="-fx-background-color: #E6E6FA;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.updateItemDetails">
+   <children>
+      <Label layoutX="182.0" layoutY="36.0" text="Update Inventory Item Details">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchCodeField" layoutX="255.0" layoutY="121.0" />
+      <Label fx:id="searchStatusLabel" layoutX="213.0" layoutY="83.0" text="Enter the Item code you wish to update:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="196.0" text="Item Code:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="updateBrand" layoutX="140.0" layoutY="280.0" />
+      <TextField fx:id="updateCode" layoutX="139.0" layoutY="192.0" />
+      <TextField fx:id="updateName" layoutX="139.0" layoutY="239.0" />
+      <Label layoutX="55.0" layoutY="243.0" text="Item Name:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="55.0" layoutY="284.0" text="Brand:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="370.0" layoutY="282.0" text="Purchased Date:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="370.0" layoutY="241.0" text="Category:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="372.0" layoutY="194.0" text="Price:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="updateCategory" layoutX="503.0" layoutY="239.0" />
+      <TextField fx:id="updatePrice" layoutX="503.0" layoutY="192.0" />
+      <Label layoutX="369.0" layoutY="327.0" text="Quantity:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="369.0" layoutY="371.0" text="Threshold:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="updateQuantity" layoutX="503.0" layoutY="325.0" />
+      <TextField fx:id="updateThreshold" layoutX="503.0" layoutY="368.0" />
+      <Label layoutX="54.0" layoutY="329.0" text="Item Image:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button fx:id="updateImageButton" layoutX="144.0" layoutY="325.0" mnemonicParsing="false" onAction="#updateImage" text="Add Image">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="cancelButton" layoutX="585.0" layoutY="448.0" mnemonicParsing="false" onAction="#cancelAndClose" text="Cancel">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="updateButton" layoutX="368.0" layoutY="448.0" mnemonicParsing="false" onAction="#updateItem" text="Update Details">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <DatePicker fx:id="updateDate" layoutX="503.0" layoutY="280.0" prefHeight="26.0" prefWidth="150.0" />
+      <Button fx:id="searchButton" layoutX="423.0" layoutY="121.0" mnemonicParsing="false" onAction="#searchItem" text="Search">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="clearButton" layoutX="508.0" layoutY="448.0" mnemonicParsing="false" onAction="#clearForm" text="Clear">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="361.0" prefWidth="682.0" style="-fx-background-color: #E6E6FA;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.dealerItemController">
+   <children>
+      <TableView fx:id="dealerItemsTable" layoutX="28.0" layoutY="106.0" prefHeight="200.0" prefWidth="350.0">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="103.99994468688965" text="Item Name" />
+          <TableColumn fx:id="brandCol" prefWidth="93.60003662109375" text="Brand" />
+            <TableColumn fx:id="priceCol" prefWidth="77.59989929199219" text="Price" />
+            <TableColumn fx:id="quantityCol" prefWidth="74.40008544921875" text="Quantity" />
+        </columns>
+      </TableView>
+      <Text fontSmoothingType="LCD" layoutX="258.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dealer Items">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <ComboBox fx:id="dealerComboBox" layoutX="433.0" layoutY="153.0" prefWidth="150.0" />
+      <Text fontSmoothingType="LCD" layoutX="401.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a dealer to view their items">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+   </children>
+</AnchorPane>
